@@ -1,0 +1,92 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.item-padding {
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.help {
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+.tips-content {
+  margin-top: 55px;
+}
+
+.help::after {
+  content: "";
+  width: 0;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-left: 1px solid;
+}
+
+.item-name {
+  text-align: right;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.url-input {
+  width: 300px;
+}
+
+.divided::after {
+  content: "";
+  width: 0;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-left: 1px solid;
+}
+
+.a-link {
+  font-size: 16px;
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+.el-card__body {
+  padding: 20px 0;
+}
+
+.el-card {
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.tip {
+  margin-top: 30px;
+}
+
+@media screen and (min-width:1199px) and (max-width:1401px) {
+  .item-name {
+    font-size: 14px;
+  }
+}

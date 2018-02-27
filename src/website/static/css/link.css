@@ -1,0 +1,31 @@
+.link-list {
+  height: 50px;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  /*margin-top: 110px;*/
+  border-top: 1px solid #b1b1b1;
+  color: #fff;
+  ul {
+    width: 100%;
+    li {
+      display: inline-block;
+      font-size: 16px;
+      padding: 15px 40px;
+      cursor: pointer;
+    }
+  }
+}
+
+.top-banner {
+  height: 360px;
+  .banner-text {
+    padding: 85px 40px 0 40px;
+  }
+}
+
+.distribution {
+  padding: 88px 0;
+}

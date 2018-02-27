@@ -1,0 +1,43 @@
+@import '../../modules/production/assets/css/common.css';
+
+.frame {
+  position: relative;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: var(--bg-light);
+  .title {
+    position: absolute;
+    top: 60px;
+    color: var(--text-primary);
+  }
+}
+
+.bg-frame-taichiddosapp {
+  height: 483px;
+  background: url(../../modules/production/assets/images/taichi-ddos-app/pro-frame.png) center center no-repeat;
+}
+
+.bg-frame-taichiddosplus {
+  height: 609px;
+  background: url(../../modules/production/assets/images/taichi-ddos-plus/pro-frame.png) center center no-repeat;
+}
+
+.bg-frame-cloudspeed {
+  height: 608px;
+  background: url(../../modules/production/assets/images/cloud-speed/pro-frame.png) center center no-repeat;
+}
+
+.bg-frame-cloudmonitor {
+  height: 542px;
+  background: url(../../modules/production/assets/images/cloud-monitor/pro-frame.png) center center no-repeat;
+}
+
+.bg-frame-doublemirror {
+  height: 525px;
+  background: url(../../modules/production/assets/images/double-mirror/pro-frame.png) center center no-repeat;
+}
+
+.bg-frame-redguard {
+  height: 608px;
+  background: url(../../modules/production/assets/images/red-guard/pro-frame.png) center center no-repeat;
+}

@@ -1,0 +1,35 @@
+.website-common-input .el-input__inner {
+  height: 34px;
+  font-size: 13px;
+}
+
+.website-common-button {
+  padding: 10px 45px;
+}
+
+.layout {
+  margin: auto;
+  width: 1200px;
+}
+
+.sub-layout {
+  margin: auto;
+  width: 1100px;
+}
+
+.clearfix {
+  *zoom: 1;
+  &:before {
+    display: table;
+    content: '';
+  }
+  &:after {
+    display: table;
+    content: '';
+    clear: both;
+  }
+  .sub-layout {
+    margin: auto;
+    width: 1100px;
+  }
+}

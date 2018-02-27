@@ -1,0 +1,26 @@
+
+.product-container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product-container-size {
+  height: 786px;
+}
+
+.product-container h2, .product-container h4, .map-title h2, .map-title h4 {
+  font-weight: 100;
+}
+
+.product-container h2 {
+  font-size: 32px;
+  color: #0a0a0a;
+  padding: 128px 0 34px 0;
+  letter-spacing: 2px;
+}
+
+.product-container h4 {
+  font-size: 16px;
+  color: #8d8d8d;
+}

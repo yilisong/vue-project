@@ -1,0 +1,14 @@
+.title-text::before {
+  background: url(../images/cloud-monitor-icon.png) no-repeat left top;
+}
+
+.product-title {
+  background: url(../images/cloud-monitor-banner.png) no-repeat left;
+  background-size: cover;
+}
+
+.experience-btn {
+  border: 1px solid #333333;
+  background: #f8f8f8;
+  color: #333333;
+}

@@ -1,0 +1,28 @@
+@define-extend font-color {
+  color: var(--primary-blue);
+}
+
+.swiper-slide-active {
+  background: #eafafc;
+  border: 1px solid var(--primary-blue);
+  box-shadow: 0px 10px 5px #eafafc;
+}
+
+.experience-btn {
+  @extend font-color;
+  border: 1px solid var(--primary-blue);
+  background: #eafafc;
+}
+
+.url-text {
+  @extend font-color;
+}
+
+.product-title {
+  background: url(../images/observe-risk-banner.png) no-repeat left;
+  background-size: cover;
+}
+
+.title-text::before {
+  background: url(../images/observe-risk-icon.png) no-repeat left top;
+}

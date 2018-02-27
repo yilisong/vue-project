@@ -1,0 +1,51 @@
+.icon-cloudCalc:before {
+  content: '\E63A';
+}
+
+.icon-cloudDns:before {
+  content: '\E642';
+}
+
+.icon-cloudMonitor:before {
+  content: '\E640';
+}
+
+.icon-webCdn:before {
+  content: '\E641';
+}
+
+.icon-hwws:before {
+  content: '\E637';
+}
+
+.icon-observeStar:before {
+  content: '\E634';
+}
+
+.icon-shieldEye:before {
+  content: '\E638';
+}
+
+.icon-sslCa:before {
+  content: '\E63c';
+}
+
+.icon-replaceMirror:before {
+  content: '\E63e';
+}
+
+.icon-tjkdweb:before {
+  content: '\E63f';
+}
+
+.icon-tjkdDns:before {
+  content: '\E632';
+}
+
+.icon-tjkdPlus:before {
+  content: '\E639';
+}
+
+.icon-tjkdApp:before {
+  content: '\E643';
+}

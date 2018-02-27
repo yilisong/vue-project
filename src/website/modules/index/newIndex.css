@@ -1,0 +1,123 @@
+.product-nav li {
+  width: 24.5%;
+  display: inline-block;
+  position: relative;
+}
+
+.product-nav li+li {
+  margin-left: -4px;
+}
+
+.product-nav li div {
+  margin: 0 auto;
+}
+
+.product-nav li p {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.product-nav li::before, .product-nav li::after {
+  content: "";
+  display: block;
+  width: 104px;
+  height: 1px;
+  background: #e6e6e6;
+}
+
+.product-nav li::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.product-nav li::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.product-icon-application {
+  background: url('../../static/images/index-products/application_index.png')no-repeat 1px -1px;
+  width: 86px;
+  height: 74px;
+}
+
+.product-icon-speed {
+  background: url('../../static/images/index-products/speed_index.png') no-repeat -6px -3px;
+  width: 72px;
+  height: 74px;
+}
+
+.product-icon-DDoS {
+  background: url('../../static/images/index-products/DDos_index.png') no-repeat -7px -4px;
+  width: 69px;
+  height: 74px;
+}
+
+.product-icon-safe {
+  background: url('../../static/images/index-products/safe_index.png') no-repeat -8px -4px;
+  width: 68px;
+  height: 74px;
+}
+
+.product-content-container {
+  margin-top: 24px;
+  padding: 30px 0;
+  background: #f2f2f4;
+  min-height: 280px;
+}
+
+.product-content-container ul {
+  text-align: left;
+  position: relative;
+}
+
+.product-content-container ul li {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.product-content-container .product-block {
+  width: 33%;
+  box-sizing: border-box;
+  height: 135px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 18px 13px;
+  margin-bottom: 20px;
+}
+
+.product-content-container .product-block h4 {
+  color: #000;
+}
+
+.product-content-container .product-block p {
+  padding: 12px 0 15px 0;
+  height: 23px;
+  font-size: 12px;
+}
+
+.product-content-container .product-block a {
+  padding: 8px 18px;
+  color: #333;
+  border: 1px solid #cdcdcd;
+  background: #f3f3f5;
+  font-size: 12px;
+}
+
+.product-content-container .product-block:hover {
+  background: #fff;
+  transition: all .5s;
+}
+
+.product-content-container .product-block:hover a {
+  background: #fff;
+  border-color: #2d90e6;
+}

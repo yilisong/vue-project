@@ -1,0 +1,46 @@
+@import '../../modules/production/assets/css/common.css';
+
+.application {
+  padding-bottom: 60px;
+  .app-explain {
+    display: inline-block;
+    width: 795px;
+    vertical-align: middle;
+  }
+  .first {
+    width: 100%;
+  }
+  .second {
+    width: 50%;
+  }
+  .third {
+    width: 33.3%;
+  }
+  .fourth {
+    width: 25%;
+  }
+  .fifth {
+    width: 20%;
+  }
+  .sixth {
+    width: 16.6%;
+  }
+}
+
+.theme-dark {
+  color: var(--text-primary);
+  background-color: var(--bg-dark);
+}
+
+.theme-light {
+  color: var(--text-black);
+  background-color: #fff;
+  .tabs {
+    border-color: #e6e6e6;
+    background-color: #fff;
+  }
+  .tab-hd li {
+    border-right-color: #e6e6e6;
+    border-bottom-color: #e6e6e6;
+  }
+}

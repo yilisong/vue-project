@@ -1,0 +1,56 @@
+{
+  "rules": {
+    "class": [{
+      "value": "suffix",
+      "label": "后缀名"
+    }, {
+      "value": "ip",
+      "label": "IP"
+    }, {
+      "value": "url",
+      "label": "URL"
+    }, {
+      "value": "equal",
+      "label": "精确匹配"
+    }, {
+      "value": "dir",
+      "label": "目录"
+    }],
+    "cache": [{
+      "value": "no",
+      "label": "不缓存"
+    }, {
+      "value": "yes",
+      "label": "缓存"
+    }],
+    "cacheTime": [{
+      "value": "minute",
+      "label": "分钟"
+    }, {
+      "value": "hour",
+      "label": "小时"
+    }, {
+      "value": "day",
+      "label": "天"
+    }, {
+      "value": "month",
+      "label": "月"
+    }],
+    "visitLimit": [{
+      "value": "ip",
+      "label": "IP"
+    }, {
+      "value": "url",
+      "label": "站内URL"
+    }]
+  },
+  "website": {
+    "view": [{
+      "value": "primary",
+      "label": "主"
+    }, {
+      "value": "backup",
+      "label": "备"
+    }]
+  }
+}

@@ -1,0 +1,28 @@
+@define-extend font-color {
+  color: #ff6a11;
+}
+
+.swiper-slide-active {
+  background: #fff5f5;
+  border: 1px solid #ff0000;
+  box-shadow:0px 10px 5px #FFF2F0;
+}
+
+.experience-btn {
+  @extend font-color;
+  border: 1px solid red;
+  background: #fae9e0;
+}
+
+.url-text {
+  @extend font-color;
+}
+
+.product-title {
+  background: url(../images/red-banner.png) no-repeat left;
+  background-size: cover;
+}
+
+.title-text::before {
+  background: url(../images/red-guard-icon.png) no-repeat left top;
+}

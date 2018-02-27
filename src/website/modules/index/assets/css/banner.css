@@ -1,0 +1,110 @@
+.el-carousel__item .banner-box {
+  position: relative;
+  max-width: 1200px;
+  min-width: 980px;
+  margin: 0 auto;
+}
+
+.el-carousel__item .banner-box .banner-content {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  color: #fff;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+.el-carousel__item .banner-box {
+  position: relative;
+  height: 100%;
+  max-width: 1200px;
+  min-width: 980px;
+  margin: 0 auto;
+}
+
+.el-carousel__item .banner-box .banner-content {
+  position: absolute;
+  top: 33%;
+  right: 0;
+  color: #fff;
+}
+
+.banner-box .banner-content h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.banner-box .banner-content p {
+  font-size: 16px;
+  line-height: 1.7em;
+  padding: 20px 0;
+}
+
+.fit-new {
+  width: 661px;
+}
+
+.logo-five {
+  position: absolute;
+  bottom: 0;
+  left: -152px;
+}
+
+.banner-box .big-logo {
+  position: absolute;
+  top: 115px;
+  right: 0;
+}
+
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 150px;
+  margin: 0;
+}
+
+.banner-box .banner-content p {
+  font-size: 16px;
+  line-height: 1.7em;
+  padding: 20px 0;
+}
+
+
+/*.banner-box .banner-content a{
+  margin-top: 20px;
+}*/
+
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 150px;
+  margin: 0;
+}
+
+.el-carousel__item .banner-bg {
+  /*background: #1085d7\9\0;
+  background: radial-gradient(circle farthest-side at 0 0, #0c8ad6, #2370e0, #3b52eb);*/
+  background: url("../assets/images/index-banner/butterfly.jpg")center center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+@media screen and (min-width:1199px) and (max-width:1401px) {
+  .logo-five {
+    left: -100px;
+  }
+  .banner-box .activity-box {
+    width: 565px;
+  }
+  .banner-box .logo-activity {
+    left: -70px;
+  }
+}

@@ -1,0 +1,31 @@
+
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.tabs {
+  width: auto;
+  .tab-hd {
+    li {
+      float: left;
+      cursor: pointer;
+    }
+  }
+  .tab-bd {
+    li {
+      display: none;
+    }
+    li:first-child {
+      display: list-item;
+    }
+  }
+}

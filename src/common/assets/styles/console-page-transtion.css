@@ -1,0 +1,19 @@
+/*transtion*/
+
+.slide-right-enter-active, .slide-left-enter-active {
+  transition: all .3s ease;
+}
+
+.slide-right-leave-active, .slide-left-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-right-enter, .slide-right-leave-active {
+  transform: translateX(-10px);
+  opacity: 0;
+}
+
+.slide-left-enter, .slide-left-leave-active {
+  transform: translateX(10px);
+  opacity: 0;
+}

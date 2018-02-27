@@ -1,0 +1,13 @@
+$marginVertical: 12px;
+
+.monitor-header {
+  margin-bottom: $marginVertical;
+}
+
+.monitor-body {
+  /* margin-bottom: $marginVertical; */
+}
+
+.monitor-footer {
+
+}

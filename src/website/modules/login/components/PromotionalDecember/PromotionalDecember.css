@@ -1,0 +1,65 @@
+ul.countdown {
+  list-style: none;
+  padding: 0;
+  display: block;
+  text-align: center;
+  color: var(--primary-blue);
+}
+
+ul.countdown li {
+  display: inline-block;
+}
+
+ul.countdown li span {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 80px;
+  display: inline-block;
+  width: 74px;
+}
+
+ul.countdown li.seperator {
+  left: 2px;
+  font-size: 40px;
+  line-height: 70px;
+  vertical-align: top;
+  display: inline-block;
+  width: 12px;
+  position: relative;
+}
+
+ul.countdown li.seperator.fitst-seperator {
+  left: -8px;
+}
+
+
+ul.countdown li p {
+  font-size: 14px;
+  color: #333333;
+}
+
+a {
+  color: #76949f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+#emitter {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-12px);
+  cursor: pointer;
+}
+
+.emitter-dot {
+  background-color: #2d90e6;
+  border-radius: 999px;
+  position: absolute;
+}

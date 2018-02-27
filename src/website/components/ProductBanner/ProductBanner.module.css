@@ -1,0 +1,129 @@
+
+.banner-height {
+  padding-top: 1px;
+  height: 420px;
+  box-shadow: 0 1px 1px 1px rgba(236,236,236,.5);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.content {
+  margin-top: 120px;
+}
+
+.title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title-font {
+  font-size: 48px;
+}
+
+.title-color-black {
+  color: #c3c3c3;
+}
+
+.title-color-dark {
+  color: #000;
+}
+
+%sub-title {
+  margin-top: 22px;
+  margin-bottom: 28px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+}
+
+.sub-dark-title {
+  @extend %sub-title;
+  width: 745px;
+  color: #b9b9b9;
+}
+
+.sub-black-title {
+  @extend %sub-title;
+  width: 745px;
+}
+
+.redguard-subtitle {
+  @extend %sub-title;
+  width: 925px;
+}
+
+.doublemirror-subtitle {
+  @extend %sub-title;
+  width: 875px;
+}
+
+.cloudmonitor-subtitle {
+  @extend %sub-title;
+  width: 590px;
+}
+
+%banner-background {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@each $app in (app, dns, plus, web) {
+  .taichiddos$(app)-background {
+    @extend %banner-background;
+    background-image: url(../../modules/production/assets/images/taichi-ddos-$(app)/banner.png);
+  }
+}
+
+.cloudspeed-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/cloud-speed/banner.png);
+}
+
+.sslcertificate-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/ssl-certificate/banner.jpg);
+}
+
+.hadoopriskdetect-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/hadoop-risk-detect/banner.png);
+}
+
+.riskdetect-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/risk-detect/banner.png);
+}
+
+.serverguard-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/server-guard/banner.png);
+}
+
+.redguard-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/red-guard/banner.png);
+}
+
+.cloudhost-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/cloud-host/banner.png);
+}
+
+.doublemirror-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/double-mirror/banner.png);
+}
+
+.cloudmonitor-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/cloud-monitor/banner.png);
+}
+
+.cloudresolving-background {
+  @extend %banner-background;
+  background-image: url(../../modules/production/assets/images/cloud-resolving/banner.png);
+}

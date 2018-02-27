@@ -1,0 +1,125 @@
+@import '../../modules/production/assets/css/common.css';
+
+.advantage-taichi-app:hover {
+  background: url(../../modules/production/assets/images/taichi-ddos-app/bg-frame.png) center 0 no-repeat;
+}
+
+.advantage-taichi-dns:hover {
+  background: url(../../modules/production/assets/images/taichi-ddos-dns/bg-frame.png) center 0 no-repeat;
+}
+
+.advantage-taichi-plus:hover {
+  background: url(../../modules/production/assets/images/taichi-ddos-plus/bg-frame.png) center 0 no-repeat;
+}
+
+.advantage-taichi-web:hover {
+  background: url(../../modules/production/assets/images/taichi-ddos-web/bg-frame.png) center 0 no-repeat;
+}
+
+.advantage-hadoop-risk-detect:hover {
+  background: url(../../modules/production/assets/images/hadoop-risk-detect/bg-frame.png) center 0 no-repeat;
+}
+
+.theme-dark {
+  color: var(--text-primary);
+  background-color: var(--bg-dark);
+  .item-title {
+    font-size: 18px;
+  }
+  .an-advantage:hover {
+    i {
+      background-position: center -102px;
+    }
+    .item-title {
+      border-bottom: 1px dotted var(--primary-blue);
+    }
+  }
+  .advantage-third {
+    margin-right: 120px;
+    width: 250px;
+    .title {
+      margin-bottom: 36px;
+    }
+    &:first-child {
+      margin-left: 105px;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .advantage-fourth {
+    margin-right: 80px;
+    width: 200px;
+    .title {
+      margin-bottom: 36px;
+    }
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+    &:nth-child(4n + 1) {
+      margin-left: 40px;
+    }
+  }
+}
+
+.dot-transparent,
+.dot-blue {
+  position: absolute;
+  bottom: 30px;
+  width: 2px;
+  height: 2px;
+  background-color: var(--primary-blue);
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 2px;
+    background-color: var(--primary-blue);
+  }
+  &:before {
+    left: -6px;
+  }
+  &:after {
+    left: 6px;
+  }
+}
+
+.theme-light {
+  color: var(--text-black);
+  .item-title {
+    font-size: 14px;
+  }
+  .advantage-fourth {
+    margin-right: 3px;
+    padding: 24px 25px 0;
+    width: 220px;
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+  .an-advantage {
+    position: relative;
+    height: 298px;
+    border: 1px solid transparent;
+    .item-title {
+      color: #333;
+      border-bottom: 1px solid transparent;
+    }
+    .item-info {
+      color: #333;
+    }
+    &:hover {
+      background-color: #f8fcff;
+      border-color: var(--primary-blue);
+      box-shadow: 0 4px 2px 2px #eaf4fc;
+      .item-title {
+        font-size: 16px;
+        border-bottom: 1px solid #e6e6e6;
+      }
+      i {
+        background-position: center -34px;
+      }
+    }
+  }
+}

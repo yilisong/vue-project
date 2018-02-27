@@ -1,0 +1,27 @@
+.status_table tbody .cell {
+  white-space: normal;
+  word-break: break-all;
+  line-height: 69px!important;
+}
+
+.status_table thead .is-leaf, .status_table thead .cell {
+  color: #fff;
+  background: #3092e6;
+}
+
+.hot_banner .el-tabs__header {
+  border-bottom: 2px solid #2d90e6;
+}
+
+.hot_banner .is-active, .hot_banner .el-tabs__active-bar {
+  color: #fff;
+  background: #2d90e6;
+}
+
+.bottom_charts .el-tabs__header {
+  margin: 0;
+}
+
+.bottom_charts .el-progress.is-success .el-progress-bar__inner {
+  background: #20a0ff;
+}
